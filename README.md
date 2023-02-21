@@ -1,1 +1,1 @@
-# designpatterns_ddd_fullcycle
+Código para estudo de DDD com o Wesley e Rodrigo Branas da FullCycle

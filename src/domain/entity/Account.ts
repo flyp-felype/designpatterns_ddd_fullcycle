@@ -1,12 +1,12 @@
-import AccountBuilder from "./AccountBuilder";
+import AccountBuilder from "../builder/AccountBuilder";
 import Transaction from "./Transaction";
 
 export default class Account {
-    private bank: string | undefined;
-    private branch: string | undefined;
-    private account: string | undefined;
+     bank: string | undefined;
+     branch: string | undefined;
+     account: string | undefined;
     document: string;
-    private transactions: Transaction[]
+    transactions: Transaction[]
 
     constructor(accountBuilder: AccountBuilder) {
         this.bank = accountBuilder.bank;
